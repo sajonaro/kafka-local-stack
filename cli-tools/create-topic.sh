@@ -9,4 +9,4 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-docker compose run --rm cli kafka-topics.sh --create --topic $1  --bootstrap-server kafka1:29092,kafka2:29093
+docker compose run --rm cli kafka-topics.sh --create --topic $1  --bootstrap-server kafka:29092
