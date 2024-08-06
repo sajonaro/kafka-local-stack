@@ -65,5 +65,4 @@ services:
   cli:
     image: bitnami/kafka:latest
     tty: true 
-    networks:
-      - kafka-net 
+
